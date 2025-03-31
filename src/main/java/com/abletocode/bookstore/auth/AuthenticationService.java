@@ -38,6 +38,5 @@ public class AuthenticationService {
             .roles(List.of(userRole))
             .build();
 userRepository.save(user);
-//sendValidationEmail(user);
     }
 }
